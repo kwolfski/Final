@@ -1,0 +1,57 @@
+body {
+  font-family: raleway, sans-serif;
+  font-weight: normal;
+  align-items: center;
+  background-repeat: repeat;
+  line-height: 1.5em;
+}
+
+
+#page1 {
+    padding: 100px;
+
+}
+
+
+#page2 {
+    background-color: darkred;
+    padding: 100px;
+}
+
+#page3 {
+    padding: 100px;
+}
+
+.nav {
+  background: darkred;
+  float:left;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  margin: auto;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 40px;
+  text-align: center;
+  font-family: raleway, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  align-items: center;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+
+li.nav {
+    display: inline-block;
+    align-items: center;
+}
