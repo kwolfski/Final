@@ -1,4 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +6,8 @@
     <link rel = "stylesheet"   type = "text/css"   href = "style.css"/>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="../jquery.colorbox.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
     <script src="jquery-3.2.1.js"></script>
 
     </head>
@@ -56,37 +57,69 @@
 		<li><p class="red"><a class="group1" href="images/dates/Social_Dates3.png"><img src="images/cards/dd.jpg"></a></p></li>
     </ul>
     <p class="red">Coming up with a great date idea can be tough... Leave it to Date Deck to spark the flame for you! With 52 cards and 52 dates, Date Deck has a new fun prompt for every week of the year. Don't ever settle for 'Dinner & a Movie' again! Date Deck is great for all types of daters, whether its a first date or a fifth anniversary.</p>
+    
+    <p class="red">Below you will find a selection of our dates that you can sort thru and preview.</p>
 </section>
           
-<!--<section id="page 3">
- dates 
-    <div id="products">
-  <form id="productOptions" onclick="checkbox()">
+<section id="page 3">
+ <form id="dates" onclick="checkbox()">
     <div>
-      <input type="checkbox" id="vitamin" checked>
-      <label for="vitamin">Dining</label>
+      <input type="checkbox" id="dining" checked>
+      <label for="dining">Dining</label>
     </div>
     <div>
-      <input type="checkbox" id="mineralwater" checked>
-      <label for="mineralwater">Stay In</label>
+      <input type="checkbox" id="stayHome" checked>
+      <label for="stayHom">Stay In</label>
     </div>
     <div>
-      <input type="checkbox" id="proteinbar" checked>
-      <label for="proteinbar">Adventure</label>
+      <input type="checkbox" id="adventure" checked>
+      <label for="adventure">Adventure</label>
     </div>
   </form>
   
-  <ul class="product-list">
-    <li class="product-item" data-prod_id="V-A1037">
-        <img class="product-image" src="images/products/vitamin-a.jpg" alt="Vitamin A - Product Photo">
-        <h2 class="product-name" data-type="vitamin">Vitamin A</h2>
+  <ul class="datesDemo">
+    <li class="product-item">
+        <img class="product-image" src="images/cards/dd10.jpg" alt="A-Z">
+        <h2 class="product-name" data-type="dining">A-Z</h2>
     </li>
-    <li class="product-item" data-prod_id="V-BC2178">
-        <img class="product-image" src="images/products/vitamin-bcomplex.jpg" alt="B Complex - Product Photo">
-        <h2 class="product-name" data-type="vitamin">Vitamin-B Complex</h2>
+    <li class="product-item">
+        <img class="product-image" src="images/cards/dd12.jpg" alt="Ten Poses">
+        <h2 class="product-name" data-type="stayHome">Ten Poses</h2>
     </li>
-  </ul>
-</section><!-- #products -->
+    <li><img class="product-image" src="images/cards/dd24.jpg" alt="New to You">
+        <h2 class="product-name" data-type="adventure">New To You</h2>
+    </li>
+    <li class="product-item">
+        <img class="product-image" src="images/cards/dd38.jpg" alt="Hobby Hub">
+        <h2 class="product-name" data-type="stayHome">Relive the Past</h2>
+    </li>
+          <li class="product-item">
+        <img class="product-image" src="images/cards/dd16.jpg" alt="DIY Rave">
+        <h2 class="product-name" data-type="stayHome">DIY Rave</h2>
+    </li>
+    <li class="product-item">
+        <img class="product-image" src="images/cards/dd14.jpg" alt="Off the Grid">
+        <h2 class="product-name" data-type="stayHome">Off the Grid</h2>
+    </li>
+          <li class="product-item">
+        <img class="product-image" src="images/cards/dd22.jpg" alt="Childhood">
+        <h2 class="product-name" data-type="dining">Childhood</h2>
+    </li>
+    <li class="product-item">
+        <img class="product-image" src="images/cards/dd66.jpg" alt="O-71">
+        <h2 class="product-name" data-type="adventure">O-71</h2>
+    </li>
+          <li class="product-item">
+        <img class="product-image" src="images/cards/dd88.jpg" alt="Playful Portrait">
+        <h2 class="product-name" data-type="stayHome">Playful Portrait</h2>
+    </li>
+    <li class="product-item">
+        <img class="product-image" src="images/cards/dd20.jpg" alt="Tourist Time">
+        <h2 class="product-name" data-type="dining">Tourist Time</h2>
+    </li>
+    </ul>
+  
+
  
 
 
@@ -112,11 +145,12 @@
         <p class="contact">
         P. 563.543.7540<br>
         E. ktschramm@yahoo.com<br></p>
-        <img src="images/dd_footer.jpg" alt="footer">
+        <img src="images/dd_footer.jpg" alt="footer" style="max-width: 100%">
       </section>
 </footer>
     
 </div>
+          
 <script src="script.js"></script>
 
 </body>
