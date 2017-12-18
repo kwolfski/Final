@@ -56,9 +56,9 @@ img.onload = function() {
 
 // wk10 ex2 filtering
 function checkbox(){
-	var vitamins = document.getElementById("vitamin").checked,
-		mineralwater = document.getElementById("mineralwater").checked,
-		proteinbar = document.getElementById("proteinbar").checked;
+	var vitamins = document.getElementById("Dining").checked,
+		mineralwater = document.getElementById("Stay In").checked,
+		proteinbar = document.getElementById("Adventure").checked;
 
 	if (vitamins) {
 		$("h2[data-type=vitamin]").parent().css('display', 'block');

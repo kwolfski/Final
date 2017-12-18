@@ -154,6 +154,65 @@ h1 {
 }
 
 
+/* wk 10 exercise */
+
+#products .product-list {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap/*.product-item*/
+}
+
+#products .product-list .product-item {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    width: 50%;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    opacity: .8/*.product-name*/
+}
+
+#products .product-list .product-item .product-name {
+    background: #d14348;
+    color: #f3d350;
+    font-weight: 700;
+    font-size: 80%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none
+}
+
+#products .product-list .product-item:focus .product-name,
+#products .product-list .product-item:hover .product-name {
+    display: block
+}
+
+#products .product-list .product-item:focus,
+#products .product-list .product-item:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 1
+}
+
+#products .product-list .product-item:focus .product-name,
+#products .product-list .product-item:hover .product-name {
+    display: block;
+    -webkit-animation: a 1s;
+    animation: a 1s
+}
+
 
 
 
