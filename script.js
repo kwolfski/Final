@@ -52,3 +52,32 @@ img.onload = function() {
 					return false;
 				});
 			});
+
+
+// wk10 ex2 filtering
+function checkbox(){
+	var vitamins = document.getElementById("vitamin").checked,
+		mineralwater = document.getElementById("mineralwater").checked,
+		proteinbar = document.getElementById("proteinbar").checked;
+
+	if (vitamins) {
+		$("h2[data-type=vitamin]").parent().css('display', 'block');
+	}
+	else {
+		$("h2[data-type=vitamin]").parent().css('display', 'none');
+	}
+			
+	if (mineralwater) {
+		$("h2[data-type=mineralwater]").parent().css('display', 'block');
+	}
+	else {
+		$("h2[data-type=mineralwater]").parent().css('display', 'none');
+	}
+			
+	if (proteinbar) {
+		$("h2[data-type=proteinbar]").parent().css('display', 'block');
+	}
+	else {
+		$("h2[data-type=proteinbar]").parent().css('display', 'none');
+	}	
+}

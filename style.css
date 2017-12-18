@@ -13,12 +13,12 @@ body {
 
 
 .nav {
-  background: darkred;
+  background: #c0232a;
   align-content: center;
   width: 100%;
   position: sticky;
   top: 0;
-  padding: 5px;
+  padding: 25px;
   margin: auto 0;
   align-items: center;
   z-index: 100;
@@ -73,9 +73,9 @@ div.container img {
 
 #page2 {
     background-color: darkred;
-    padding: 100px;
+    padding: 50px;
     margin: auto 0;
-
+    color: white;
 }
 
 #page3 {
@@ -89,6 +89,12 @@ p {
 
 p.red {
     color: white;
+}
+
+p.page2 {
+    margin: auto 0;
+    padding: 0px;
+    line-height: 1.2em;
 }
 
 .right {
@@ -106,7 +112,7 @@ p.red {
 
 
 .dates {
-  background: darkred;
+  background: #c0232a;
   align-content: center;
   width: 100%;
   top: 0;
@@ -139,6 +145,12 @@ p.red {
 li.dates {
     display: inline-block;
     align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1.2em;
 }
 
 
