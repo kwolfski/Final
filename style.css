@@ -51,15 +51,15 @@ li.nav {
 }
 
 div.container {
-    width: 100%;
-    border: 1px solid gray;
+    width: 80%;
+    padding: 40px;
 }
 
 div.container img {
     float: left;
     max-height: 100%;
     max-width: 100%;
-    padding: 0 0 40px;
+    padding: 0 100px 0 0;
 }
 
 
