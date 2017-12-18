@@ -5,8 +5,16 @@
     <style type="text/css" link="style.css"></style>
     <title>Date Deck</title>
     <link rel = "stylesheet"   type = "text/css"   href = "style.css"/>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../jquery.colorbox.js"></script>
     </head>
   <body>
+      
+      <div id = "all" align="center">
+          
+      <img id="logo" src="images/DateDeck.png" alt="date deck logo" style="height:300px; width:300px">
+
+
       <header class="nav">
         <div id="navbar">
           <ul>
@@ -31,27 +39,42 @@
 </section>
 <br>
 -->
+
     
-    
-    <div id="page1">
+    <section id="page1">
   <a id="date" class="smooth"></a>
+    <div class="container">
+    <img class="left"  src="images/sale.jpg" alt="Sale">
     <p>Hey there! These dating prompts were originally conceived as a personal gift on Valentines Day 2016. After enjoying many of the dates together as a couple, we decided to share the fun! We just recently took the deck and redesigned it into its current iteration, and we're extremely happy with the end results. We can't wait to start sending these out into the world and hopefully hearing about the creative dates that ensue. Happy dating!</p>
+    </div>
         
-    <p>Coming up with a great date idea can be tough... Leave it to Date Deck to spark the flame for you! With 52 cards and 52 dates, Date Deck has a new fun prompt for every week of the year. Don't ever settle for 'Dinner & a Movie' again! Date Deck is great for all types of daters, whether its a first date or a fifth anniversary.</p>
-</div>
+</section>
 
 <div id="page2">
   <a id="demo" class="smooth"></a>
-        <p>Hey there! These dating prompts were originally conceived as a personal gift on Valentines Day 2016. After enjoying many of the dates together as a couple, we decided to share the fun! We just recently took the deck and redesigned it into its current iteration, and we're extremely happy with the end results. We can't wait to start sending these out into the world and hopefully hearing about the creative dates that ensue. Happy dating!</p>
-        
-    <p>Coming up with a great date idea can be tough... Leave it to Date Deck to spark the flame for you! With 52 cards and 52 dates, Date Deck has a new fun prompt for every week of the year. Don't ever settle for 'Dinner & a Movie' again! Date Deck is great for all types of daters, whether its a first date or a fifth anniversary.</p>
+    <h1>Sample Dates</h1>
+    <ul class="dates">
+		<li><p class="red"><a class="group1" href="images/dates/Social_Dates.png" title="Me and my grandfather on the Ohoopee.">"Home Team"</a></p></li>
+		<li><p class="red"><a class="group1" href="images/dates/Social_Dates2.png" title="On the Ohoopee as a child">"Long Lost Friends"</a></p></li>
+		<li><p class="red"><a class="group1" href="images/dates/Social_Dates3.png" title="On the Ohoopee as an adult">"Junior"</a></p></li>
+    </ul>
+    <p class="red">Coming up with a great date idea can be tough... Leave it to Date Deck to spark the flame for you! With 52 cards and 52 dates, Date Deck has a new fun prompt for every week of the year. Don't ever settle for 'Dinner & a Movie' again! Date Deck is great for all types of daters, whether its a first date or a fifth anniversary.</p>
 </div>
 
 <div id="page3">
-  <a id="contact" class="smooth"></a>
-    <p>Hey there! These dating prompts were originally conceived as a personal gift on Valentines Day 2016. After enjoying many of the dates together as a couple, we decided to share the fun! We just recently took the deck and redesigned it into its current iteration, and we're extremely happy with the end results. We can't wait to start sending these out into the world and hopefully hearing about the creative dates that ensue. Happy dating!</p>
-        
-    <p>Coming up with a great date idea can be tough... Leave it to Date Deck to spark the flame for you! With 52 cards and 52 dates, Date Deck has a new fun prompt for every week of the year. Don't ever settle for 'Dinner & a Movie' again! Date Deck is great for all types of daters, whether its a first date or a fifth anniversary.</p>
+  <a id="contact" class="smooth"></a>  
+    <h2>Drop Us a Line!</h2>
+<form class="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br><br>
+   Message:<br>
+    <input type="text" name="message" value="" style="height:200px; width:200px">
+  </form>
+  <input type="button" value="Submit">
 </div>
     
     
@@ -63,5 +86,9 @@
         <img src="images/dd_footer.jpg" alt="footer">
       </section>
 </footer>
+    
+</div>
+<script src="script.js"></script>
+
 </body>
 </html>
